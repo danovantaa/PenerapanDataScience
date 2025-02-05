@@ -23,9 +23,9 @@ Sumber data: dataset yang digunakan merupakan dataset [Jaya Jaya Maju](https://g
 * Setup conda environment:
 
     ```
-   python3.9 -m venv venv
-  source venv/bin/activate  # macOS/Linux
-  venv\Scripts\activate  # Windows
+    conda create --name myenv python=3.9
+    conda activate myenv #MacOS
+    conda activate myenv  # Windows
     ```
 * Install requirements:
     ```
